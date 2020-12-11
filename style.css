@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(img/bg.jpg);
+    background-size: cover;
+}
+
+.banner .content {
+    max-width: 900px;
+    text-align: center;
+}
+
+.banner .content h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4em;
+    color: #4ff00f;
+}
+
+.banner .content p {
+    margin-top: 20px;
+    font-size: 1em;
+    color: #fff;
+}
+
+section {
+    padding: 100px;
+}
+
+.page1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    height: 100vh;
+    background-color: #000000;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+
+header.sticky {
+    background: #fff;
+    padding: 10px 100px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+} 
+
+.logo {
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+header.sticky .logo {
+    color: #111;
+}
+
+.navbar {
+    display: flex;
+    padding: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    position: relative;
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li {
+    margin-left: 32px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.navbar .cta {
+    background-color: #4ff00f;
+    padding: 8px 16px;
+    border-radius: 25px;
+    color: white;
+    transition: 0.2s;
+}
+
+.navbar .cta:hover {
+    background-color: #4bd614;
+    color: white;
+}
+
+.navbar ul li a:hover {
+    color: rgb(184, 181, 181);
+}
+
+
+header.sticky li a {
+    color: rgb(14, 0, 78);
+}
+
+header.sticky li a:hover {
+    color: rgb(0, 255, 42);
+}
+

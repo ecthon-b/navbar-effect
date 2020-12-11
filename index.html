@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3e83169ad3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <a class="logo" href="#">code.git</a>
+        <div class="menuToggle" onclick="toggleMenu();"></div>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#">Serviços</a></li> 
+                <li><a href="#">Projetos</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a class="cta" href="">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="banner" id="banner">
+        <div class="content">
+            <h1>Navbar Effect</h1>
+            <p>Colocando um efeito legal na barra de navegação</p>
+        </div>
+    </section>
+    <section>
+        <div class="page1">
+            <h1>PAGE 1</h1>
+        </div>
+    </section>
+
+    <script type="text/javascript">
+    window.addEventListener('scroll', function() {
+        const header = document.querySelector('header');
+        header.classList.toggle("sticky", window.scrollY > 0);
+    });
+
+    function toggleMenu() {
+        const menuToggle = document.querySelector('.menuToggle');
+        const navigation = document.querySelector('.menuToggle');
+        menuToggle.classList.toggle('active');
+        navigation.classList.toggle('active');
+
+    }    
+    </script>
+</body>
+</html>
