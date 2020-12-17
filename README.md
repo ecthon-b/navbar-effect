@@ -1,26 +1,23 @@
 <h1 align="center">Navbar Effect</h1>
 <p align="center"><img align="center" src="img/gif.gif" width="500"></p> 
-<p align="center">Colocando efeito na barra de navegação utilizando HTML, CSS e JavaScript.</p>
+<h2 align="center">Colocando efeito na barra de navegação utilizando HTML, CSS e JavaScript.</h2>
+<br>
 
-<p align="center">
-  <a href="#themes">Projeto</a> •
-  <a href="#contributing">Tecnologias</a> •
-  <a href="#need-help">Instalar</a> •
-  <a href="#license">Licença</a>
-</p>
-
-## Projeto
+## 💡 Projeto
+<hr>
 <p widht="800px">Oi pessoal!
 Quero compartilhar com vocês esse projetinho que serve para dar um efeito bem bacana na barra de navegação (Navbar).
 Apesar de simples, você pode praticar e aprender um pouco mais sobre as tecnologias listadas abaixo.</p>
 
-## Tecnologias
+## 🚀 Tecnologias
+<hr>
 
 * HTML
 * CSS
 * JAVASCRIPT
 
-## Instalar
+## 👥 Clonando e Instalando
+<hr>
 
 Apos clonar o projeto em sua máquina,
 
@@ -33,6 +30,7 @@ execute o seguinte comando:
 $ npm install
 ```
 
-## Licença
+## 📄 Licença
+<hr>
 
-MIT © [ecthon](https://github.com/ecthon)
+[MIT](LICENSE) © [ecthon](https://github.com/ecthon) 👾
