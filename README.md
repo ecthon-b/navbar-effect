@@ -28,4 +28,4 @@ $ npm install
 
 ## 📄 Licença
 
-[MIT](LICENSE) © [ecthon](https://github.com/ecthon) 👾
+[MIT](LICENSE) © Com 💜 por [ecthon](https://github.com/ecthon) 👾
